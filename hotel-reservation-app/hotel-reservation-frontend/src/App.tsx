@@ -57,7 +57,7 @@ export default function App() {
  ) {
  }
  }
- window.location.pathname !== "/auth/login" &&
+ window.location.pathname !== "/auth/login" ;
  window.location.pathname = "/auth/login";
  setIsAuthLoading(false);
  }, []);
